@@ -1,0 +1,135 @@
+
+header{
+    background-color: rgb(225, 207, 226);
+}
+
+.MovieList{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.flexNew{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.search{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 69, 103);
+    text-align: center;
+    
+}
+
+.flexy{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+.star{
+    cursor: pointer;
+    font-size: 22px;
+   
+}
+
+.modalTitle{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(103, 189, 103);
+}
+
+.modalBody{
+    text-align: center;
+    color: rgb(35, 78, 172);
+    font-weight: bolder;
+}
+
+.formAdd{
+    width:400px;
+    height:30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.buttonAdd{
+   margin-top:10px;
+    margin-left:20px;
+   border-radius: 50%;
+  text-align: center ;
+   font-weight: bolder;
+   font-size: 70px;
+   width:100px;
+   background-color: rgb(230, 214, 226);
+   color: rgb(31, 32, 37);
+   border: none;
+}
+
+.MovieCard:hover{
+    box-shadow: 10px 10px 23px 8px rgba(237,255,171,0.79);
+    -webkit-box-shadow: 10px 10px 23px 8px rgba(237,255,171,0.79);
+    -moz-box-shadow: 10px 10px 23px 8px rgba(237,255,171,0.79);
+    transform: scale(1.1);
+   
+}
+
+.poster{
+    mask-image:none;
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(18, 44, 82)),
+      color-stop(0.35, rgb(17, 6, 44)),
+      color-stop(0.5, rgb(3, 15, 37)),
+      color-stop(0.65, rgb(9, 25, 75)),
+      color-stop(0.85, rgba(68, 107, 190, 0.6)),
+      color-stop(1, rgba(193, 219, 253, 0))
+
+     );
+  
+
+}
+
+.MovieCard{
+    margin-left:80px;
+    
+}
+
+.App{
+    background-image: url(" https://live.staticflickr.com/3473/3895261375_0cc4031384_b.jpg ");
+    background-position: top;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(165, 25, 79);
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.search{
+   
+   margin-left:50px;
+   margin-right: 50px;
+   
+}
+
